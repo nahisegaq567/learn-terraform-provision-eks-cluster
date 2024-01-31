@@ -4,8 +4,10 @@
 terraform {
 
   cloud {
+    organization = "Allistair-DevOps"
+
     workspaces {
-      name = "learn-terraform-eks"
+      name = "AWS-EKS-Cluster"
     }
   }
 
